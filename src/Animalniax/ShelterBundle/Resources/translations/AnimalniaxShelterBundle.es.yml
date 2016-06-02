@@ -1,0 +1,8 @@
+animalniax:
+    shelter:
+        index_header: Refugios
+        fields:
+            name: Nombre
+            address: Dirección
+            contact_person: Persona de contacto
+            contact_phone: Teléfono de contacto

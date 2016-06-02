@@ -1,0 +1,28 @@
+Animalniax\ShelterBundle\Entity\Shelter:
+    type: entity
+    table: animalniax_shelter
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 50
+            name: name
+            nullable: false
+        address:
+            type: string
+            length: 250
+            name: address
+            nullable: true
+        contactPerson:
+            type: string
+            length: 50
+            name: contact_person
+            nullable: true
+        contactPhone:
+            type: string
+            length: 12
+            name: contact_phone

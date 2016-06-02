@@ -1,4 +1,12 @@
 services:
-#    animalniax_shelter.example:
-#        class: Animalniax\ShelterBundle\Example
-#        arguments: ["@service_id", "plain_value", %parameter%]
+    sonata.admin.shelter:
+        class: Animalniax\ShelterBundle\Admin\ShelterAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "animalniax.facilities.index_header", label: "animalniax.shelter.index_header" }
+        arguments:
+            - ~
+            - Animalniax\ShelterBundle\Entity\Shelter
+            - ~
+        calls:
+            - [ setTranslationDomain, [AnimalniaxShelterBundle]]
+            
