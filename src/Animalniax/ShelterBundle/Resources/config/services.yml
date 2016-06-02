@@ -1,0 +1,4 @@
+services:
+#    animalniax_shelter.example:
+#        class: Animalniax\ShelterBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

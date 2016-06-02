@@ -20,6 +20,8 @@ class AppKernel extends Kernel
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
+            new Animalniax\BaseBundle\AnimalniaxBaseBundle(),
+            new Animalniax\ShelterBundle\AnimalniaxShelterBundle(),
             new AppBundle\AppBundle(),
         );
 

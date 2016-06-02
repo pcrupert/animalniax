@@ -1,3 +1,11 @@
+animalniax_base:
+    resource: "@AnimalniaxBaseBundle/Resources/config/routing.yml"
+    prefix: /
+    
+animalniax_shelter:
+    resource: "@AnimalniaxShelterBundle/Resources/config/routing.yml"
+    prefix: /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
