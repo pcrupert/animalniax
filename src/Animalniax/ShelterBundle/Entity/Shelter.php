@@ -3,22 +3,22 @@
 namespace Animalniax\ShelterBundle\Entity;
 
 /**
- * Shelter
+ * Shelter.
  *
  * @author rupert
  */
 class Shelter
 {
     protected $id;
-    
+
     protected $name;
-    
+
     protected $address;
-    
+
     protected $contactPerson;
-    
+
     protected $contactPhone;
-    
+
     public function getId()
     {
         return $this->id;
