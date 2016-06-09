@@ -23,8 +23,8 @@ class AppKernel extends Kernel
             new \Sonata\EasyExtendsBundle\SonataEasyExtendsBundle(),
             new \FOS\UserBundle\FOSUserBundle(),
             new \Sonata\UserBundle\SonataUserBundle('FOSUserBundle'),
-            new Animalniax\BaseBundle\AnimalniaxBaseBundle(),
-            new Animalniax\ShelterBundle\AnimalniaxShelterBundle(),
+            new \Animalniax\BaseBundle\AnimalniaxBaseBundle(),
+            new \Animalniax\ShelterBundle\AnimalniaxShelterBundle(),
             new \Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
             new AppBundle\AppBundle(),
         );
